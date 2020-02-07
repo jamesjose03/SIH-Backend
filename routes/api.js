@@ -8,7 +8,7 @@ let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
         user: 'atest6533@gmail.com',
-        pass: '6ukQevHQmDumc7W'
+        pass: yourpassword
     }
 })
 
@@ -65,5 +65,5 @@ router.delete('/alumni/:id', function(req,res){
     //console.log(req.params.id)
     res.send({type:'DELETE'})
 })
-
+//6ukQevHQmDumc7W
 module.exports = router
